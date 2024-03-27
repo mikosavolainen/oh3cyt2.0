@@ -11,3 +11,133 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.content {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+
+.cookie-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px #888888;
+}
+
+.cookie-popup button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/* styles.css */
+
+/* styles.css */
+
+#ham-propagation {
+  display: flex;
+  justify-content: space-between;
+}
+
+#solar-terrestrial-container {
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin-left: auto; /* Align to the right */
+}
+
+#laitteisto {
+  /* Add any specific styles for the laitteisto section */
+  /* For example, you can set a max-width if needed */
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 767px) {
+  #ham-propagation {
+      flex-direction: column;
+      justify-content: center; /* Center on smaller screens */
+  }
+
+  #solar-terrestrial-container {
+      width: 100%;
+      max-width: none;
+      margin: 0;
+  }
+
+  #laitteisto {
+      max-width: none; /* Adjust as needed */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #solar-terrestrial-container {
+      display: none;
+  }
+
+  #HF-Logbook {
+      display: none;
+  }
+  #galleria {
+      display: none;
+  }
+}
+
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 */
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/* Lisää omia tyylisääntöjä tarvittaessa */
